@@ -1,0 +1,44 @@
+body{
+    padding: 0;
+    margin: 0;
+    background: rgb(236, 229, 229);
+}
+
+.phonie-container{
+    background: linear-gradient(to left top, rgb(0,42,162), rgb(1,43,163), rgb(1, 42, 167), rgb(1, 42, 169), rgb(1,43,163), rgb(1,43,165), rgb(1,42,167), rgb(1,42,169), rgb(2,45,172), rgb(0,45,174), rgb(1,48,178), rgb(2,53,181), rgb(2,56,184), rgb(0,59,185), rgb(1,60,189), rgb(1,62,191), rgb(1,63,192), rgb(1,64,193), rgb(0,63,193), rgb(0,65,193), rgb(0,70,196), rgb(0,66,194), rgb(0,68,195), rgb(0,70,197), rgb(0,71,197), rgb(0,73,198), rgb(0,75,199), rgb(2,77,202), rgb(0,78,202), rgb(0,79,205), rgb(1,81,206), rgb(0,81,206), rgb(0,82,207), rgb(0,83,207), rgb(0,84,208), rgb(0,85,209), rgb(0,86,209), rgb(0,86,210), rgb(1,88,211), rgb(0,88,213), rgb(0,89,215), rgb(1,90,217), rgb(2,91,218), rgb(3,91,218), rgb(1,92,216), rgb(1,93,217), rgb(1,94,220), rgb(1,94,219), rgb(1,94,218), rgb(2,94,215), rgb(2,86,212), rgb(2,83,210), rgb(0,76,202), rgb(0,76,203), rgb(0,72,200), rgb(1,70,197), rgb(1,71,197), rgb(0,71,197), rgb(1,70,198), rgb(1,69,198), rgb(2,70,197), rgb(3,71,198), rgb(2,69,199), rgb(1,60,199), rgb(0,59,198), rgb(0,57,199), rgb(0,55,198), rgb(0,53,197), rgb(1,52,198), rgb(2,51,199), rgb(2,51,201), rgb(2,51,203), rgb(1,49,203), rgb(1,49,204), rgb(1,49,203), rgb(1,50,204), rgb(1,52,206), rgb(0,54,206), rgb(0,53,206), rgb(1,54,207), rgb(2,54,207), rgb(1,54,207), rgb(1,54,208), rgb(2,54,209), rgb(2,54,210), rgb(2,54,211), rgb(2,54,212), rgb(1,55,212), rgb(1,55,213), rgb(1,54,214));
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    margin-top: 10%;
+    border-radius: 9px;
+}
+
+.input-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    top: 40%;
+    gap: 25px;
+}
+
+.display{
+    border: 1px solid rgb(159, 155, 155);
+    background: white;
+    padding: 23px;
+    border-radius: 7px;
+    width: 20px;
+}
+
+input{
+    width: 40%;
+    border-radius: 7px;
+    padding-left: 20px;
+}
+button{
+    border-radius: 4px;
+    width: 70px;
+    color: rgb(2, 47, 183);
+    font-weight: 900;
+}
